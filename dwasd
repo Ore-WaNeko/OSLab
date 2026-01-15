@@ -1,0 +1,47 @@
+using System;
+using System.Diagnostics;
+
+class Program
+{
+    // Usage:
+    //  dotnet run --         -> runs "whoami"
+    //  dotnet run -- <cmd>   -> runs <cmd> (use a non-existent cmd to simulate failure)
+    static int Main(string[] args)
+    {
+        string cmd = args.Length > 0 ? args[0] : "whoami";
+
+        try
+        {
+            var psi = new ProcessStartInfo
+            {
+                FileName = cmd,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                CreateNoWindow = true,
+            };
+
+            using var child = Process.Start(psi);
+            if (child == null)
+            {
+                Console.Error.WriteLine("fork failed");
+                return 1;
+            }
+
+            // Read output and wait for exit
+            string output = child.StandardOutput.ReadToEnd();
+            child.WaitForExit();
+
+            Console.WriteLine($"Process ID is: {Process.GetCurrentProcess().Id}");
+            Console.WriteLine("Child output:");
+            Console.WriteLine(output.Trim());
+
+            return child.ExitCode;
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine("fork failed: " + ex.Message);
+            return 1;
+        }
+    }
+}

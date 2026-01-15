@@ -1,0 +1,15 @@
+/workspaces/OSLab/ConsoleApp/bin/Debug/net8.0/ConsoleApp
+/workspaces/OSLab/ConsoleApp/bin/Debug/net8.0/ConsoleApp.deps.json
+/workspaces/OSLab/ConsoleApp/bin/Debug/net8.0/ConsoleApp.runtimeconfig.json
+/workspaces/OSLab/ConsoleApp/bin/Debug/net8.0/ConsoleApp.dll
+/workspaces/OSLab/ConsoleApp/bin/Debug/net8.0/ConsoleApp.pdb
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfoInputs.cache
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ConsoleApp.AssemblyInfo.cs
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ConsoleApp.sourcelink.json
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ConsoleApp.dll
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/refint/ConsoleApp.dll
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ConsoleApp.pdb
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ConsoleApp.genruntimeconfig.cache
+/workspaces/OSLab/ConsoleApp/obj/Debug/net8.0/ref/ConsoleApp.dll
