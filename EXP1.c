@@ -19,7 +19,7 @@ exit (0);
 else
 {
 printf("\n Process ID is: %d\n", getpid());
-wait (NULL);
+wait (3);
 exit (0);
 }
 }

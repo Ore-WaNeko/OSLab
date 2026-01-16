@@ -1,0 +1,5 @@
+1. System Call - Use fork, getpid, wait. 1 process, fork to make 2 process id's, parent create child to make 2 pid's,
+but need to make 4 child, parent, child, child's child. Use wait to output child's child first, child, then parent. 5 pids
+2. FCFS, but 10 processes, process burst times: 9, 8, 7, 8, 7, 8, 2, 1, 2, 5. Arrival Time: U decide nig
+3. SJF, 6 element BT: 99.99, 107.9, 143.77, 20.24, 50.55, 66.66 . 
+4. Round Robin, Same Burst as 3. Quantum Time: 25. Gantt chart?
