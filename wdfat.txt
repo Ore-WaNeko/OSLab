@@ -1,0 +1,14 @@
+1. C++, 1 code only should have functions SJF, SRTF, Round Robin can call them then input an array. 
+4th function called recommended quantum time? Code should calculate optimal quantum time, 
+use mean or median of BT, call this fucntion recommended quantum time, should be whole number
+Inside structure named process should have pid, bt, at, tt, wt, ct, 
+In main - no need for use to input bt, at should already be declared. When ran should calculate 
+recommended quantum then should give the output for SJF (create table wit columns pid, at, bt, ct, tt, wt)
+SRTF (create table wit columns pid, at, bt, ct, tt, wt) , Round Robin (create table wit columns pid, at, bt, ct, tt, wt)
+under all tables we should have aveTT, aveWT. On top of the output we should see recommended quantum then Name of Algo, table, averages start with SJF
+
+AT = ( 1,  3,  8,  4,  6,  7,  2,  5)
+BT = (53, 43, 18, 16, 24, 73, 99, 27)
+
+
+

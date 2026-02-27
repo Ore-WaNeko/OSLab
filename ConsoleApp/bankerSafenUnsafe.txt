@@ -1,0 +1,28 @@
+UNSAFE:
+Number of processes and resources:
+3 3
+Claim (Max) Matrix:
+3 2 2
+6 1 3
+3 1 4
+Allocation Matrix:
+1 0 0
+5 1 1
+2 1 1
+Resource Vector (Total Resources):
+7 2 3
+
+SAFE:
+Number of processes and resources: 4 3
+Claim (Max) Matrix:
+3 2 2
+6 1 3
+3 1 4
+4 2 2
+Allocation Matrix:
+1 0 0
+6 1 2
+2 1 1
+0 0 2
+Resource Vector (Total Resources):
+9 3 6
